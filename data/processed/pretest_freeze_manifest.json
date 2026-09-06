@@ -1,0 +1,27 @@
+{
+  "created_before_locked_test_access": true,
+  "timestamp_utc": "2026-09-06T14:24:58.647384+00:00",
+  "experiment": "cyber_schema_A_3class",
+  "artifacts": {
+    "stage1_model": {
+      "path": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/models/development/cyber_stage1_attack_detector.joblib",
+      "sha256": "a94f9dab0320680e937fa9af2dc3ebdc9304a1b35f3301c2d470e10cfe9351a3"
+    },
+    "feature_config": {
+      "path": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/data/processed/cyber_selected_feature_configuration_corrected.json",
+      "sha256": "ede582ffa15fc29ffc11ac00f2bf6a4b516bd0565132b03f863a5e41a5d79d24"
+    },
+    "temperature_calibration": {
+      "path": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/data/processed/cyber_stage1_temperature_calibration.json",
+      "sha256": "89873da1a77ca8e712678f6ae5329137a2458a92e73eae9600863b2cf7e42cba"
+    },
+    "routing_policy": {
+      "path": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/data/processed/cyber_stage1_frozen_routing_policy.json",
+      "sha256": "2d184edbec39c28e76e2600fd189c4a26f8ea9d7d4c79af567c6668f29171c0f"
+    },
+    "split_configuration": {
+      "path": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/data/processed/frozen_split_configuration.json",
+      "sha256": "5f71be58b9b0f5c499c497bae03979b66babd2484c1f22047075fc8a5866043e"
+    }
+  }
+}

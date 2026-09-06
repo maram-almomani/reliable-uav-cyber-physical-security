@@ -1,0 +1,4 @@
+experiment,window_size,gap_threshold_seconds,windows,aggregated_features,duplicate_windows,conflicting_groups,rows_in_conflicting_groups
+cyber_schema_A_3class,20,16.87372999998297,1632,161,0,0,0
+physical_schema_A_3class,10,2.7808350000059363,605,98,0,0,0
+cyber_schema_B_attack_type,20,5.0,454,175,0,0,0

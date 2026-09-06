@@ -1,0 +1,7 @@
+experiment,ablation,removed_source_features,remaining_aggregated_features,accuracy,balanced_accuracy,macro_f1
+cyber_schema_A_3class,all_features,,161,0.637223974763407,0.6711709794574962,0.6531975745926814
+cyber_schema_A_3class,drop_top1,time_since_last_packet,154,0.555205047318612,0.627021620701396,0.5258347390206846
+cyber_schema_A_3class,drop_top2,"time_since_last_packet,wlan.fc.type",147,0.5488958990536278,0.6195309839972761,0.521467981159523
+physical_schema_A_3class,all_features,,98,1.0,1.0,1.0
+physical_schema_A_3class,drop_top1,barometer,91,0.4961832061068702,0.29576719576719573,0.3031817523342947
+physical_schema_A_3class,drop_top2,"barometer,mp_distance_x",84,0.44274809160305345,0.2512345679012346,0.24822309473472268

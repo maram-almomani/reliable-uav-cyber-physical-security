@@ -1,0 +1,9 @@
+metric,value
+rows,54783.0
+columns,38.0
+exact_duplicate_rows,15.0
+exact_duplicate_percent,0.027380756804118066
+numeric_columns,0.0
+non_numeric_columns,38.0
+columns_with_missing_values,21.0
+constant_columns,0.0

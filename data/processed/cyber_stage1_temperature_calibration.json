@@ -1,0 +1,14 @@
+{
+  "method": "binary temperature scaling",
+  "calibration_fit_source": "3-fold StratifiedGroupKFold OOF predictions from frozen TRAIN only",
+  "group_definition": "section + temporal segment_id",
+  "n_splits": 3,
+  "temperature": 1.7111136401075104,
+  "train_oof_log_loss_before": 0.23427519499611613,
+  "train_oof_log_loss_after": 0.19304373678184483,
+  "validation_log_loss_before": 0.11540722684842279,
+  "validation_log_loss_after": 0.1127196833638255,
+  "prediction_changes_at_0.5": 0,
+  "adoption_rule": "adopt temperature scaling only if validation log loss is lower",
+  "calibration_adopted": true
+}

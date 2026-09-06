@@ -1,0 +1,11 @@
+section,attack_class,modality,schema_id,header_line,data_start,data_end,rows,raw_columns,predictor_columns,exact_duplicates,output_file
+cyber_benign,Benign,cyber,cyber_schema_A,1,2,9426,9425,38,37,0,data/processed/sections/cyber_benign.csv
+physical_benign,Benign,physical,physical_schema_A,9427,9428,13717,4290,17,16,0,data/processed/sections/physical_benign.csv
+cyber_dos,DoS,cyber,cyber_schema_A,13718,13719,25389,11671,38,37,0,data/processed/sections/cyber_dos.csv
+physical_dos,DoS,physical,physical_schema_A,25390,25391,26363,973,17,16,0,data/processed/sections/physical_dos.csv
+cyber_replay,Replay,cyber,cyber_schema_A,26364,26365,38370,12006,38,37,0,data/processed/sections/cyber_replay.csv
+physical_replay,Replay,physical,physical_schema_A,38371,38372,39344,973,17,16,0,data/processed/sections/physical_replay.csv
+cyber_evil_twin,Evil Twin,cyber,cyber_schema_B,39345,39346,45028,5683,35,34,0,data/processed/sections/cyber_evil_twin.csv
+physical_evil_twin,Evil Twin,physical,physical_schema_B,45029,45030,50502,5473,22,21,11,data/processed/sections/physical_evil_twin.csv
+cyber_fdi,FDI,cyber,cyber_schema_B,50503,50504,53976,3473,35,34,0,data/processed/sections/cyber_fdi.csv
+physical_fdi,FDI,physical,physical_schema_C,53977,53978,54784,807,32,31,0,data/processed/sections/physical_fdi.csv

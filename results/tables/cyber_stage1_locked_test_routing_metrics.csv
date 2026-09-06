@@ -1,0 +1,2 @@
+test_windows,base_errors,review_windows,review_fraction,captured_errors,error_capture,automated_windows,automated_fraction,automated_accuracy,automated_attack_precision,automated_attack_recall,automated_attack_f1
+355,108,160,0.4507042253521127,94,0.8703703703703703,195,0.5492957746478874,0.9282051282051282,1.0,0.8782608695652174,0.9351851851851852

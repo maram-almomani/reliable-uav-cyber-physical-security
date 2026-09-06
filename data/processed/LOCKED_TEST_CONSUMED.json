@@ -1,0 +1,9 @@
+{
+  "locked_test_consumed": true,
+  "timestamp_utc": "2026-09-06T14:24:59.200766+00:00",
+  "experiment": "cyber_schema_A_3class",
+  "test_windows": 355,
+  "pretest_freeze_manifest": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/data/processed/pretest_freeze_manifest.json",
+  "final_summary": "/content/drive/MyDrive/uav project/reliable-uav-cyber-physical-security/results/tables/final_locked_test_summary.json",
+  "policy": "No further model, feature, calibration, or routing-policy changes are permitted based on locked-test performance."
+}

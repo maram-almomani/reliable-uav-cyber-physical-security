@@ -1,0 +1,76 @@
+{
+  "experiment": "cyber_schema_A_3class",
+  "evaluation_policy": "one-time locked test",
+  "test_windows": 355,
+  "selected_source_families": [
+    "time_since_last_packet",
+    "wlan.fc.type"
+  ],
+  "selected_aggregated_features": 14,
+  "temperature": 1.7111136401075104,
+  "uncertainty_threshold": 0.11424997350385668,
+  "confidence_threshold": 0.8857500264961433,
+  "uncalibrated_metrics": {
+    "accuracy": 0.6957746478873239,
+    "balanced_accuracy": 0.7915057915057915,
+    "attack_precision": 1.0,
+    "attack_recall": 0.583011583011583,
+    "attack_f1": 0.7365853658536585,
+    "roc_auc": 0.9368564993564994,
+    "pr_auc": 0.9777295092736182,
+    "log_loss": 0.7889013706803452,
+    "brier": 0.23337721392088195,
+    "equal_width_ece_15": 0.21730773583264415,
+    "adaptive_ece_15": 0.21748953470042057,
+    "mean_confidence": 0.9130824208259583,
+    "confidence_accuracy_gap": 0.21730774641036987
+  },
+  "temperature_scaled_metrics": {
+    "accuracy": 0.6957746478873239,
+    "balanced_accuracy": 0.7915057915057915,
+    "attack_precision": 1.0,
+    "attack_recall": 0.583011583011583,
+    "attack_f1": 0.7365853658536585,
+    "roc_auc": 0.9368564993564994,
+    "pr_auc": 0.9777295092736182,
+    "log_loss": 0.574144605053233,
+    "brier": 0.19781938074021962,
+    "equal_width_ece_15": 0.16275513982510478,
+    "adaptive_ece_15": 0.16618741167487627,
+    "mean_confidence": 0.8543614274486342,
+    "confidence_accuracy_gap": 0.1585867795613103
+  },
+  "prediction_changes_from_temperature": 0,
+  "routing_metrics": {
+    "test_windows": 355,
+    "base_errors": 108,
+    "review_windows": 160,
+    "review_fraction": 0.4507042253521127,
+    "captured_errors": 94,
+    "error_capture": 0.8703703703703703,
+    "automated_windows": 195,
+    "automated_fraction": 0.5492957746478874,
+    "automated_accuracy": 0.9282051282051282,
+    "automated_attack_precision": 1.0,
+    "automated_attack_recall": 0.8782608695652174,
+    "automated_attack_f1": 0.9351851851851852
+  },
+  "routing_distribution": [
+    {
+      "action": "verification_required",
+      "windows": 160,
+      "fraction": 0.4507042253521127
+    },
+    {
+      "action": "generic_protective_response",
+      "windows": 101,
+      "fraction": 0.28450704225352114
+    },
+    {
+      "action": "continue_monitoring",
+      "windows": 94,
+      "fraction": 0.2647887323943662
+    }
+  ],
+  "physical_branch_interpretation": "Physical Schema-A perfect validation performance is not promoted as general attack-detection evidence because barometer absolute level was identified as a strong session/scenario confound."
+}

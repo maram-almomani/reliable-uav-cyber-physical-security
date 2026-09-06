@@ -1,0 +1,41 @@
+section,class,window_seconds,n_windows,median_rows_per_window,min_rows_per_window,max_rows_per_window
+cyber_benign,Benign,0.5,1829,4.0,1,64
+cyber_benign,Benign,1.0,1499,5.0,1,64
+cyber_benign,Benign,2.0,1308,6.0,1,65
+cyber_benign,Benign,5.0,821,10.0,1,65
+cyber_benign,Benign,10.0,440,20.0,1,75
+cyber_dos,DoS,0.5,490,13.0,1,94
+cyber_dos,DoS,1.0,338,19.5,1,140
+cyber_dos,DoS,2.0,231,24.0,1,234
+cyber_dos,DoS,5.0,116,38.5,1,337
+cyber_dos,DoS,10.0,64,62.5,1,485
+cyber_replay,Replay,0.5,1145,4.0,1,97
+cyber_replay,Replay,1.0,774,6.0,1,143
+cyber_replay,Replay,2.0,459,11.0,1,246
+cyber_replay,Replay,5.0,207,25.0,1,330
+cyber_replay,Replay,10.0,112,49.0,1,497
+physical_benign,Benign,0.5,4290,1.0,1,1
+physical_benign,Benign,1.0,2272,2.0,1,2
+physical_benign,Benign,2.0,1154,4.0,1,4
+physical_benign,Benign,5.0,483,9.0,1,10
+physical_benign,Benign,10.0,258,19.0,1,20
+physical_dos,DoS,0.5,973,1.0,1,1
+physical_dos,DoS,1.0,515,2.0,1,2
+physical_dos,DoS,2.0,261,4.0,1,4
+physical_dos,DoS,5.0,110,9.0,1,10
+physical_dos,DoS,10.0,58,19.0,1,20
+physical_replay,Replay,0.5,973,1.0,1,1
+physical_replay,Replay,1.0,512,2.0,1,2
+physical_replay,Replay,2.0,260,4.0,1,4
+physical_replay,Replay,5.0,109,9.0,1,10
+physical_replay,Replay,10.0,61,19.0,1,20
+cyber_evil_twin,Evil Twin,0.5,519,10.0,1,26
+cyber_evil_twin,Evil Twin,1.0,519,10.0,1,26
+cyber_evil_twin,Evil Twin,2.0,261,21.0,3,43
+cyber_evil_twin,Evil Twin,5.0,108,53.0,2,78
+cyber_evil_twin,Evil Twin,10.0,55,106.0,10,144
+cyber_fdi,FDI,0.5,130,21.5,1,76
+cyber_fdi,FDI,1.0,130,21.5,1,76
+cyber_fdi,FDI,2.0,65,38.0,15,116
+cyber_fdi,FDI,5.0,27,88.0,1,253
+cyber_fdi,FDI,10.0,14,168.5,66,449

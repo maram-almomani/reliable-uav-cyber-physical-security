@@ -1,0 +1,33 @@
+section,class,window_size_rows,full_windows,remainder_rows
+cyber_benign,Benign,10,942,5
+cyber_benign,Benign,20,471,5
+cyber_benign,Benign,50,188,25
+cyber_benign,Benign,100,94,25
+cyber_dos,DoS,10,1167,1
+cyber_dos,DoS,20,583,11
+cyber_dos,DoS,50,233,21
+cyber_dos,DoS,100,116,71
+cyber_replay,Replay,10,1200,6
+cyber_replay,Replay,20,600,6
+cyber_replay,Replay,50,240,6
+cyber_replay,Replay,100,120,6
+physical_benign,Benign,10,429,0
+physical_benign,Benign,20,214,10
+physical_benign,Benign,50,85,40
+physical_benign,Benign,100,42,90
+physical_dos,DoS,10,97,3
+physical_dos,DoS,20,48,13
+physical_dos,DoS,50,19,23
+physical_dos,DoS,100,9,73
+physical_replay,Replay,10,97,3
+physical_replay,Replay,20,48,13
+physical_replay,Replay,50,19,23
+physical_replay,Replay,100,9,73
+cyber_evil_twin,Evil Twin,10,568,3
+cyber_evil_twin,Evil Twin,20,284,3
+cyber_evil_twin,Evil Twin,50,113,33
+cyber_evil_twin,Evil Twin,100,56,83
+cyber_fdi,FDI,10,347,3
+cyber_fdi,FDI,20,173,13
+cyber_fdi,FDI,50,69,23
+cyber_fdi,FDI,100,34,73

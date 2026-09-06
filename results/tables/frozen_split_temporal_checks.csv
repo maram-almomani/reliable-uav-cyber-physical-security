@@ -1,0 +1,7 @@
+experiment,attack_class,train_max_source_line,validation_min_source_line,validation_max_source_line,test_min_source_line,chronological_order_valid
+cyber_schema_A_3class,Benign,5612,5618,7461,7478,True
+cyber_schema_A_3class,DoS,21405,21407,23326,23334,True
+cyber_schema_A_3class,Replay,32503,32506,35145,35151,True
+physical_schema_A_3class,Benign,11966,11967,12816,12821,True
+physical_schema_A_3class,DoS,25904,25914,26186,26194,True
+physical_schema_A_3class,Replay,38962,38967,39166,39167,True

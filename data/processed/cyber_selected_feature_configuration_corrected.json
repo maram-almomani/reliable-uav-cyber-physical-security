@@ -1,0 +1,40 @@
+{
+  "experiment": "cyber_schema_A_3class",
+  "full_source_family_count": 23,
+  "nonzero_gain_source_family_count": 18,
+  "zero_gain_sources": [
+    "tcp.flags",
+    "tcp.hdr_len",
+    "tcp.options",
+    "tcp.window_size",
+    "wlan.frag"
+  ],
+  "true_full_aggregated_feature_count": 161,
+  "true_full_validation_macro_f1": 0.6531975745926814,
+  "selection_rule": "smallest predefined source-family subset retaining at least 99% of the true 161-feature full-model validation Macro F1",
+  "retention_threshold": 0.6466655988467546,
+  "selected_source_family_count": 2,
+  "selected_sources": [
+    "time_since_last_packet",
+    "wlan.fc.type"
+  ],
+  "selected_aggregated_feature_count": 14,
+  "selected_features": [
+    "wlan.fc.type__mean",
+    "wlan.fc.type__std",
+    "wlan.fc.type__min",
+    "wlan.fc.type__max",
+    "wlan.fc.type__median",
+    "wlan.fc.type__missing_ratio",
+    "wlan.fc.type__nunique",
+    "time_since_last_packet__mean",
+    "time_since_last_packet__std",
+    "time_since_last_packet__min",
+    "time_since_last_packet__max",
+    "time_since_last_packet__median",
+    "time_since_last_packet__missing_ratio",
+    "time_since_last_packet__nunique"
+  ],
+  "selected_validation_macro_f1": 0.649296074846998,
+  "corrected_macro_f1_retention": 0.9940270755779884
+}

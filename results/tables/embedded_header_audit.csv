@@ -1,0 +1,12 @@
+dataframe_column,embedded_value,count
+timestamp_c,timestamp_c,4
+frame.number,frame.number,4
+wlan.seq,wlan.fc.type,2
+llc.type,wlan.fc.subtype,2
+ip.flags,class,3
+tcp.srcport,class,1
+udp.length,class,1
+wlan.fc.type,wlan.fc.type,2
+wlan.fc.type,class,2
+wlan.fc.subtype,wlan.fc.subtype,2
+class,class,2

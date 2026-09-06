@@ -1,0 +1,40 @@
+{
+  "project": "Reliable UAV Cyber-Physical Security",
+  "primary_task": "Benign vs Attack",
+  "attack_classes": [
+    "DoS",
+    "Replay"
+  ],
+  "selected_source_features": [
+    "time_since_last_packet",
+    "wlan.fc.type"
+  ],
+  "selected_aggregated_features": 14,
+  "temperature": 1.7111136401075104,
+  "uncertainty_threshold": 0.11424997350385668,
+  "confidence_threshold": 0.8857500264961433,
+  "locked_test": {
+    "accuracy": 0.6957746478873239,
+    "balanced_accuracy": 0.7915057915057915,
+    "attack_precision": 1.0,
+    "attack_recall": 0.583011583011583,
+    "attack_f1": 0.7365853658536585,
+    "roc_auc": 0.9368564993564994,
+    "pr_auc": 0.9777295092736182
+  },
+  "calibration": {
+    "raw_log_loss": 0.7889013706803452,
+    "scaled_log_loss": 0.574144605053233,
+    "raw_brier": 0.2333772139208819,
+    "scaled_brier": 0.1978193807402196
+  },
+  "routing": {
+    "review_fraction": 0.4507042253521127,
+    "error_capture": 0.8703703703703703,
+    "automated_fraction": 0.5492957746478874,
+    "automated_accuracy": 0.9282051282051282,
+    "automated_attack_f1": 0.9351851851851852
+  },
+  "physical_branch": "Confounding case study; not a general attack detector.",
+  "post_test_tuning": false
+}

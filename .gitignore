@@ -1,0 +1,70 @@
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Large derived datasets
+data/processed/sections/
+data/processed/experiments/
+data/processed/windows/
+data/processed/splits/
+
+# Large fitted models
+models/development/*.joblib
+
+# Row-level outputs
+results/tables/*predictions.csv
+results/tables/*routing.csv
+results/tables/*threshold_curve.csv
+
+# Notebook / Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+
+# ------------------------------------------------------------
+# Root-level local source artifacts
+# ------------------------------------------------------------
+
+/Dataset_T-ITS.csv
+/uav project.ipynb
+
+# ------------------------------------------------------------
+# Colab / local notebook artifacts
+# ------------------------------------------------------------
+
+*.ipynb_checkpoints
+
+# ------------------------------------------------------------
+# Non-canonical / intermediate local artifacts
+# ------------------------------------------------------------
+
+data/processed/cyber_selected_feature_configuration.json
+
+results/tables/cyber_source_family_reduction.csv
+results/tables/raw_label_locations.csv
+
+results/tables/cyber_schema_A_3class_logistic_regression_validation_confusion_matrix.csv
+results/tables/cyber_schema_A_3class_random_forest_validation_confusion_matrix.csv
+results/tables/cyber_schema_A_3class_xgboost_validation_confusion_matrix.csv
+results/tables/cyber_schema_A_3class_window_feature_types.csv
+results/tables/cyber_schema_A_3class_window_section_stats.csv
+
+results/tables/cyber_schema_B_attack_type_window_feature_types.csv
+results/tables/cyber_schema_B_attack_type_window_section_stats.csv
+
+results/tables/physical_schema_A_3class_logistic_regression_validation_confusion_matrix.csv
+results/tables/physical_schema_A_3class_random_forest_validation_confusion_matrix.csv
+results/tables/physical_schema_A_3class_xgboost_validation_confusion_matrix.csv
+results/tables/physical_schema_A_3class_window_feature_types.csv
+results/tables/physical_schema_A_3class_window_section_stats.csv

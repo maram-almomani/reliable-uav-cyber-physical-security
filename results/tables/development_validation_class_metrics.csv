@@ -1,0 +1,19 @@
+experiment,model,class,precision,recall,f1,support
+cyber_schema_A_3class,Logistic Regression,Benign,0.9021739130434783,0.9325842696629213,0.9171270718232044,89
+cyber_schema_A_3class,Logistic Regression,DoS,0.38848920863309355,0.5625,0.4595744680851064,96
+cyber_schema_A_3class,Logistic Regression,Replay,0.5348837209302325,0.3484848484848485,0.42201834862385323,132
+cyber_schema_A_3class,Random Forest,Benign,0.88,0.9887640449438202,0.9312169312169312,89
+cyber_schema_A_3class,Random Forest,DoS,0.4228187919463087,0.65625,0.5142857142857142,96
+cyber_schema_A_3class,Random Forest,Replay,0.6323529411764706,0.32575757575757575,0.43,132
+cyber_schema_A_3class,XGBoost,Benign,0.8877551020408163,0.9775280898876404,0.93048128342246,89
+cyber_schema_A_3class,XGBoost,DoS,0.4461538461538462,0.6041666666666666,0.5132743362831859,96
+cyber_schema_A_3class,XGBoost,Replay,0.6404494382022472,0.4318181818181818,0.5158371040723982,132
+physical_schema_A_3class,Logistic Regression,Benign,0.9425287356321839,0.9761904761904762,0.9590643274853801,84
+physical_schema_A_3class,Logistic Regression,DoS,0.9090909090909091,0.37037037037037035,0.5263157894736842,27
+physical_schema_A_3class,Logistic Regression,Replay,0.42424242424242425,0.7,0.5283018867924528,20
+physical_schema_A_3class,Random Forest,Benign,0.9767441860465116,1.0,0.9882352941176471,84
+physical_schema_A_3class,Random Forest,DoS,1.0,0.5185185185185185,0.6829268292682927,27
+physical_schema_A_3class,Random Forest,Replay,0.5806451612903226,0.9,0.7058823529411765,20
+physical_schema_A_3class,XGBoost,Benign,1.0,1.0,1.0,84
+physical_schema_A_3class,XGBoost,DoS,1.0,1.0,1.0,27
+physical_schema_A_3class,XGBoost,Replay,1.0,1.0,1.0,20

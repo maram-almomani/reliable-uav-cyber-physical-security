@@ -1,0 +1,13 @@
+{
+  "strategy": "class-stratified chronological segment-grouped blocked split",
+  "target_proportions": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "group_definition": "section + temporal segment_id",
+  "ordering_variable": "original source_line order",
+  "test_policy": "LOCKED \u2014 no model selection, feature selection, preprocessing fitting, calibration fitting, or hyperparameter tuning",
+  "secondary_experiment_policy": "cyber_schema_B_attack_type is excluded from the primary 3-way frozen split because FDI contains only two temporal segments.",
+  "sha256": "8d123379673ed834135d7ba195df8952a291c73780c5e9b3d0d53f8ff5879ed3"
+}

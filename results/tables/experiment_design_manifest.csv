@@ -1,0 +1,4 @@
+experiment,role,task,schema_id,modality,rows,classes,raw_predictors,excluded_predictors,candidate_predictors,duplicate_rows,conflicting_feature_groups,rows_in_conflicting_groups
+cyber_schema_A_3class,primary,multiclass,cyber_schema_A,cyber,33102,3,37,14,23,9353,2015,11844
+physical_schema_A_3class,primary,multiclass,physical_schema_A,physical,6236,3,16,2,14,64,0,0
+cyber_schema_B_attack_type,secondary,binary_attack_type,cyber_schema_B,cyber,9156,2,34,9,25,3235,0,0

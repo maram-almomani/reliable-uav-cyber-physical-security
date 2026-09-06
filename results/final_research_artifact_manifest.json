@@ -1,0 +1,82 @@
+{
+  "generated_utc": "2026-09-06T14:51:53.978173+00:00",
+  "locked_test_consumed": true,
+  "post_test_model_changes": false,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "ba5375608eda0f9b0fe10054950b537fd8ce92ade876812d8d44ffaea8f03211",
+      "bytes": 6881
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "f136f876f7f5e6a3429381609bc37aa23e0c62867fa79727022441ab70ba83ce",
+      "bytes": 5450
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "ae5247935b095fdac8b75fdd3891b135f3d8b405af0d482e08ca6e5ab17b5e36",
+      "bytes": 3313
+    },
+    {
+      "path": "LIMITATIONS.md",
+      "sha256": "c2bfeb107ab4c81e1633b7d036f697a30cea3d3893f036d0d6b2645fc5cf8f2d",
+      "bytes": 2376
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "sha256": "90de16a28db2d5eab536ddc7f316d354b8221ad743a6533d11d60c743a2a7ec3",
+      "bytes": 1831
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "45cc33acd0cb0d5901579f583ad82576d8c0f7d65f04d715bc44fe5ff1e0b0a9",
+      "bytes": 95
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f0d1d50e094f2cf30563790403c2efe21a9dd866026c0d2584d009a4b8e8fc4f",
+      "bytes": 485
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "e747d4e6cc442ee154c8947cca61448fa4b55b064b0b0437ce9f98306f206578",
+      "bytes": 817
+    },
+    {
+      "path": "results/tables/final_research_summary.json",
+      "sha256": "bdcbdfdd88a16ca39fce59886be3000f480a37ecb2cf52b86ed51a48e9d5967b",
+      "bytes": 1210
+    },
+    {
+      "path": "results/figures/validation_vs_locked_test.png",
+      "sha256": "7cabff854dcfa6258cfdcec88c42e1ddcab4ed7e1f7abe3aae2237970a80678c",
+      "bytes": 136646
+    },
+    {
+      "path": "results/figures/locked_test_confusion_matrix.png",
+      "sha256": "eded66308c9d759f3470036099de62a264c3e55266e4b5f2b4c51645b1be2c89",
+      "bytes": 103958
+    },
+    {
+      "path": "results/figures/locked_test_calibration_generalization.png",
+      "sha256": "cb0cf4a03cfab7bcbdf9cb3aca6c1c1b2c5ed81f502dc8b60ce10dbb9596bb89",
+      "bytes": 99968
+    },
+    {
+      "path": "results/figures/locked_test_risk_aware_routing.png",
+      "sha256": "09a3b61516370a9d0fa5fa676b31911ba27740a84d0e20167f7145b3e7956446",
+      "bytes": 97582
+    },
+    {
+      "path": "results/figures/physical_barometer_confounding.png",
+      "sha256": "d8b062a809c4532042c17a4b82154e606e19a26fe86046584f28df5913934ece",
+      "bytes": 102422
+    },
+    {
+      "path": "results/figures/cyber_feature_reduction.png",
+      "sha256": "0b672c15c0b88e2fc0c032226ba1e853fa27f39e51351f6161ca98e698845146",
+      "bytes": 202024
+    }
+  ]
+}
