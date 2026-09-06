@@ -256,3 +256,10 @@ Cybersecurity research and methodological demonstration.
 
 This repository is not a certified UAV safety system or
 production autonomous response controller.
+
+## Author
+
+**Maram M. Momani**
+
+Cybersecurity Researcher  
+Machine Learning for Cybersecurity | Network & IoT Security | Cyber-Physical Systems Security
