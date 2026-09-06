@@ -247,9 +247,10 @@ reliable-uav-cyber-physical-security/
 ├── LIMITATIONS.md
 ├── MODEL_CARD.md
 ├── requirements.txt
-└── .gitignore ```
+└── .gitignore
+```
 
-#Intended use
+## Intended use
 
 Cybersecurity research and methodological demonstration.
 
